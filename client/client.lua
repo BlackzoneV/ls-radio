@@ -251,6 +251,7 @@ RegisterNUICallback('escape', function(data, cb)
 
     enableRadio(false)
     SetNuiFocus(false, false)
+    SetNuiFocus(false)
 
 
     cb('ok')
